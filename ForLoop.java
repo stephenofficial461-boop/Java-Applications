@@ -1,12 +1,16 @@
 
-public class ForLoop{
+public class WhileLoop {
 	public static void main (String [] args ){
-		for (int i = 10; i >=1  ; i --){
-			System.out.printf(" %d ",i);
-			i--;
-		}
-	}
+   
+   int  num = 10 ;
+   int nums = 20;
+  
+  
+  while ( num <= nums){
+      
+  System.out.println("You are good");
+  num++; 
+    
+    }
+    }
 }
-
-	
-	
